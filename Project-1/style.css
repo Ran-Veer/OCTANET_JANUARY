@@ -39,12 +39,13 @@ header nav .nav_menu_container ul li a{
     color: #1D5A6B;
     font-size: 1.2rem;
     font-weight: 400;
+    text-shadow: 1px 1px 1px #0795bc;
 }
 header nav .log-btn-container button{
     padding: .4rem 1.5rem;
     color: #fff;
     border: none;
-    background-color:#8f0039;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 60%, rgba(0,212,255,1) 100%);
     border-radius: 5px;
     font-size: 1rem;
     margin-left: .2rem;
@@ -58,14 +59,56 @@ main .hero img{
     right: 0;
     z-index: -1;
 }
-main .hero img:nth-child(1){
-   width:100rem;
+main .hero-text-container{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 2.5rem 0 0 3.5rem;
+    position: relative;
 }
-main .hero img:nth-child(2){
-    width:100rem;
- 
+main .hero-text-container .bird-1 img{
+    width: 6rem;
+    position: absolute;
+    right: 12rem;
+    top: 0rem;
+    transform: rotate(-10deg);
 }
-main .hero img:nth-child(4){
-    width:100rem;
- 
+
+main .hero-text-container .heading1 h3{
+    font-size: 1.3rem;
+    color: #2a88a2;
+    letter-spacing: .1rem;
+    text-shadow: 1px 1px 1px #0795bc;
+    cursor: default;
+}
+main .hero-text-container .heading2 h1{
+    font-size: 4.5rem;
+    color: #044b5e;
+    width: 70%;
+    line-height: 5.2rem;
+    text-shadow: 1px 2px 3px #0795bc;
+    cursor: default;
+}
+main .hero-text-container .sub-heading p{
+    font-size: 1.5rem;
+    color: #003645;
+    margin-top:1rem;
+    /* border: 1px solid red; */
+    text-shadow: 1px 2px 3px #ffffff;
+    cursor: default;
+}
+main .hero-text-container .heading-btn button{
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+main .hero-text-container .bird-2 img{
+    width: 6rem;
+    position: absolute;
+    left:-2rem;
+    bottom: -8rem;
+    transform: rotate(5deg);
 }
