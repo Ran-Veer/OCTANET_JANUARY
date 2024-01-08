@@ -7,12 +7,12 @@
 }
 /* --------------------------------- Navigation Menu Section Start -------------------- */
 header{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 header nav{
-    background-color:aqua;
+    background-color:transparent;
     backdrop-filter: blur(5px);
     display: flex;
     flex-direction: row;
@@ -36,17 +36,36 @@ header nav .nav_menu_container ul li{
 }
 header nav .nav_menu_container ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #1D5A6B;
     font-size: 1.2rem;
     font-weight: 400;
 }
 header nav .log-btn-container button{
-    padding: .3rem 1.5rem;
+    padding: .4rem 1.5rem;
     color: #fff;
     border: none;
-    background-color: rgb(230, 50, 0);
+    background-color:#8f0039;
     border-radius: 5px;
     font-size: 1rem;
     margin-left: .2rem;
+    cursor:pointer
 }
 /* --------------------------------- Navigation Menu Section End -------------------- */
+/* ---------------------- Hero Section Start ------------------------- */
+main .hero img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+main .hero img:nth-child(1){
+   width:100rem;
+}
+main .hero img:nth-child(2){
+    width:100rem;
+ 
+}
+main .hero img:nth-child(4){
+    width:100rem;
+ 
+}
